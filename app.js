@@ -61,14 +61,12 @@ let title6 = 'Q6';
 console.log(title6);
 
 function sayHello() {
-    let hello = 'Hello';
-    console.log(hello);
+    console.log('Hello');
 }
 sayHello();
 
 let sayWorld = function(){
-    let World = 'World';
-    console.log(World);
+    console.log('World');
 }
 sayWorld();
 
@@ -88,27 +86,24 @@ let title8 = 'Q8';
 console.log(title8);
 
 let calc = {};
-calc.add = function getArea(x,y) {
-    let add = x + y;
-    console.log(add);
+
+calc.add = function(x,y) {
+    console.log(x + y);
 }
 calc.add(3,4);
 
-calc.subtract = function getArea(x,y) {
-    let sub = x - y;
-    console.log(sub);
+calc.subtract = function(x,y) {
+    console.log(x - y);
 }
 calc.subtract(11,1);
 
-calc.multiply = function getArea(x,y) {
-    let mul = x * y;
-    console.log(mul);
+calc.multiply = function (x,y) {
+    console.log(x * y);
 }
 calc.multiply(7,7);
 
-calc.divide = function getArea(x,y) {
-    let div = x / y;
-    console.log(div);
+calc.divide = function(x,y) {
+    console.log(x / y);
 }
 calc.divide(15,3);
 
@@ -116,7 +111,7 @@ calc.divide(15,3);
 let title9 = 'Q9';
 console.log(title9);
 
-calc.remainder = function getArea(x,y){
+calc.remainder = function(x,y){
     let rem = x % y;
     return rem;
 }
@@ -135,7 +130,7 @@ console.log(title10);
 let title11 = 'Q11';
 console.log(title11);
 
-const integer = Math.floor(Math.random() * 9);
+let integer = Math.floor(Math.random() * 10);
 console.log(integer);
 
 
