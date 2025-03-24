@@ -146,12 +146,12 @@ setTimeout(alertmsg,3000);
 let title13 = 'Q13';
 console.log(title13);
 
-let num = -8;
+let num = 1;
 if (num > 0) {
     console.log('num is greater than 0');
 } else if (num < 0) {
     console.log('num is less than 0');
-} else if (num === 0) {
+} else {
     console.log('num is 0');
 }
 
@@ -173,11 +173,11 @@ let mixed = [4, '2', 5, '8', '9', 0, 1];
 for (let mx = 0; mx < mixed.length; mx++) {
     let value = mixed[mx]; 
 
-    if (typeof value === 'string') { 
-    console.log('not number');
-} else if (value % 2 === 1) {
-    console.log('odd');
-} else {
+    if (value % 2 === 0 && typeof value === 'number') {
     console.log('even');
+} else if (value % 2 === 1 && typeof value === 'number'){
+    console.log('odd');
+} else { 
+    console.log('not number');
 }
-};
+}
